@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 📊 Projeto Contador de Cliques
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um simples **contador de cliques** criado com React. O projeto permite **incrementar**, **decrementar** e **resetar** o valor do contador.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 **Descrição do Projeto**
 
-### `npm start`
+Este projeto foi criado para demonstrar o uso de **componentes funcionais** e do **hook useState** no React. Ele possui três funcionalidades principais:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Incrementar:** Aumenta o valor do contador em 1 a cada clique.
+2. **Decrementar:** Diminui o valor do contador em 1, mas impede que o valor fique abaixo de zero.
+3. **Resetar:** Reseta o valor do contador para zero.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ **Estrutura do Projeto**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A estrutura do projeto foi organizada da seguinte forma:
 
-### `npm run build`
+- **public/index.html**: Arquivo principal que contém a estrutura básica da aplicação React e o ponto de entrada do projeto.
+- **src/index.js**: Arquivo que inicializa o React e renderiza o componente principal na DOM.
+- **src/App.js**: Componente principal do projeto, responsável por carregar o componente do contador.
+- **src/Contador.js**: Componente funcional do contador que implementa a lógica de incremento, decremento e reset.
+- **src/Contador.css**: Arquivo de estilo responsável por toda a estilização específica do componente Contador.
+- **src/App.css**: Arquivo de estilo global aplicado ao projeto.
+- **package.json: Arquivo de configuração do projeto que gerencia as dependências do React e scripts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contribuição
+- Sugestões: Sugestões e melhorias são bem-vindas!
+- Como Contribuir: Fork o repositório, crie uma branch, faça suas alterações e envie um pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
