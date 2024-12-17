@@ -9,7 +9,9 @@ const Contador = () => {
   };
 
   const decrementarContador = () => {
-    setCount(count - 1);
+    if (count > 0) {
+      setCount(count - 1);
+    }
   };
 
   const resetarContador = () => {
